@@ -1,10 +1,9 @@
 import smtplib 
 from email.message import EmailMessage
 '''
-outlook için:
-SMTP Sunucusu: smtp-mail.outlook.com
+For outlook:
+SMTP server: smtp-mail.outlook.com
 SMTP Port: 587
-TLS/SSL: Gerekli --> smtplib.SMTP() 
 '''
 class Mail:
     def __init__(self):
@@ -12,7 +11,6 @@ class Mail:
         self.smtp_server = "smtp-mail.outlook.com" # smtp server default
         self.main_mail = ""
         self.main_password = ""
-        self.name = ""
     def sender_info(self,mail,password):
         self.main_mail = mail
         self.main_password = password
