@@ -9,6 +9,6 @@ I use QtDesigner for the ui and use a converter to convert ui to python. if you 
 
     from PyQt5 import uic
     
-    with open("mail_gonder_design.py","w",encoding='utf-8') as fout:
+    with open("[convertedFileName]","w",encoding='utf-8') as fout:
 
-        uic.compileUi("mail_gonder_design.ui", fout)
+        uic.compileUi("[uiFile]", fout)
