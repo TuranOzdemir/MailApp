@@ -6,9 +6,9 @@ Note: You dont need to install smtplib, it's installed with python
 I use QtDesigner for the ui and use a converter to convert ui to python. if you want to redesign and convert, you can use the code below
 
 """
-from PyQt5 import uic
+    from PyQt5 import uic
 
-with open("mail_gonder_design.py","w",encoding='utf-8') as fout:
+    with open("mail_gonder_design.py","w",encoding='utf-8') as fout:
 
-    uic.compileUi("mail_gonder_design.ui", fout)
+        uic.compileUi("mail_gonder_design.ui", fout)
 """
