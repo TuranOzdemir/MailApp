@@ -3,7 +3,8 @@ This application allows you to send e-mails to different e-mail addresses using 
 
 Note: You dont need to install smtplib, it's installed with python
 
-I use QtDesigner for the ui and use a converter to convert ui to python. if you want to redesign and convert, you can use the code below 
+I use QtDesigner for the ui and use a converter to convert ui to python. if you want to redesign and convert, you can use the code below
+
 """
 from PyQt5 import uic
 
