@@ -12,3 +12,7 @@ I use QtDesigner for the ui and use a converter to convert ui to python. if you 
     with open("[convertedFileName]","w",encoding='utf-8') as fout:
 
         uic.compileUi("[uiFile]", fout)
+
+
+
+![image](https://github.com/TuranOzdemir/MailApp/assets/62646952/c9d86ba2-6b42-439c-9db5-d08b3bc8b5cb)
